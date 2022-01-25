@@ -1,9 +1,33 @@
 body {
   margin: 0;
   padding: 0;
+  background: red;
+}
+
+.wrapper {
+  width: 21cm;
+  background: red;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .profile-container {
   text-align: center;
   background: #42a8c0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.profile-container .photo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-container .photo img {
+  width: 100%;
+}
+.profile-container h3 {
+  font-size: 1.5rem;
 }
