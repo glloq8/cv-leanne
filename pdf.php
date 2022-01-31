@@ -1,8 +1,8 @@
 <?php
 
-$sFileSource = file_get_contents("index.html");
+$sFileSource = file_get_contents("pdf.html");
 
-$sPrintCss = "https://glloq8.github.io/cv-leanne/assets/css/pdf.css";
+$sPrintCss = "https://ratelyannick.fr/_lab/pdf2.css";
 require_once __DIR__ . '/vendor/autoload.php';
 
 // reference the Dompdf namespace
